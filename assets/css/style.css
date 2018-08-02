@@ -1,0 +1,394 @@
+* {
+    box-sizing: border-box;
+    /* text-align: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 148, 148);
+  }
+
+body {
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/rjHekdYmiotpjnrc/videoblocks-drop-of-black-ink-ink-splatter-on-white-background-black-splash-expanding-on-white-paper-backdrop-with-texture-horizontal-hd-ink-drips-and-splatter-video_h6gyfww1b_thumbnail-full01.png");
+    background-color: rgb(231, 231, 231);
+    margin: 0;
+    color: #777777;
+}
+
+#head {
+    width: 960px;
+    overflow: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+h1 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: white;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: #cccccc;
+}
+
+#name {
+    float: left;
+    padding: 25px; 
+    margin: 0;
+    background-color: lightseagreen;
+    color: white;
+}
+
+#button-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: unset;
+    color: darkgrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.caption {
+    background-color: lightseagreen;
+    color: white;
+    width: 300px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    /* padding: 25px; */
+    margin: auto;
+    float: center;
+    font-size: 18pt;
+}
+
+.caption_box {
+    padding: 20px;
+    width: 300px;
+    height: 65px;
+    text-align: center;
+    background-color: lightseagreen;
+    position: absolute;
+    bottom: 15px;
+}
+
+#contact-box {
+    width: 960px;
+    background-color: white;
+    overflow: auto;
+    margin: auto;
+    padding: 30px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+
+}
+
+img {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    height: 200px; 
+    width: 200px; 
+}
+
+.container {
+    height: 220px;
+    width: 300px;
+    margin: 25px 40px 25px 0px;
+    float: left;
+    position: relative;
+}
+
+#one {
+    background-image: url("https://d1ia71hq4oe7pn.cloudfront.net/photo/63738021-720px.jpg");
+    background-size: cover;
+    background-position: center bottom;
+}
+
+#two {
+    background-image: url("http://img.viralnova.com/000/072/615/desktop-1410170780.png");
+    background-size: cover;
+    background-position: center top;
+    margin-right: 0px;
+}
+
+#three {
+    background-image: url("http://www.lonelyplanet.com/travel-blog/tip-article/wordpress_uploads/2015/09/Rhinoceros_hornbill_cs.jpg");
+    background-size:contain;
+}
+
+#four {
+    background-image: url("https://thumbs-prod.si-cdn.com/kjcNPVmpQt_BdW4xfkKefOK7WyY=/800x600/filters:no_upscale()/https://public-media.smithsonianmag.com/filer/d7/5d/d75da9a8-8bbb-4657-8ba1-f4423e964477/istock-172384962.jpg");
+    background-size: cover;
+    background-position: center top;
+    margin-right: 0px;
+}
+
+#five {
+    background-image: url("https://i.pinimg.com/originals/15/96/b0/1596b0408519da495daad706c2e1fc4b.jpg");
+    background-size: cover;
+    background-position: center top;
+}
+
+#six {
+    background-image: url("https://download.ams.birds.cornell.edu/api/v1/asset/89853731/");
+    background-size: contain;
+    background-position: top right;
+    margin-right: 0px;
+}
+
+#title {
+    color: lightseagreen;
+    margin: 0;
+    /* padding: 25px; */
+}
+
+footer {
+    text-align: center;
+    color: lightgrey;
+    background-color: #666666;
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-width: 7px 0px 0px 0px;
+    border-color: lightseagreen;
+    font-size: 10pt;
+    margin-top: 30px;
+}
+
+#index-footer {
+    margin-top: 100px;
+}
+
+.text-input {
+    width: 100%;
+    padding:5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 200px;
+}
+
+.text-submit {
+    background-color: lightseagreen;
+    color: white;
+    font-size: 12pt;
+    width: 100px;
+    height: 35px;
+}
+
+hr { 
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(238, 238, 238);
+    color: lightgrey;
+    /* width: 910px; */
+    width: 100%;
+}
+
+@media screen and (max-width: 980px){
+    #contact-box {
+        width: 730px;
+        background-color: white;
+        overflow: auto;
+        margin: auto;
+        margin-left: 19.2px;
+        padding: 30px;
+        border-style: solid;
+        border-color: #dddddd;
+        border-width: 1px;
+    }
+
+    #head {
+        width: 95%;
+        overflow: auto;
+        margin: auto;
+        margin-left: 19.2px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    img {
+        /* float: left; */
+        padding-right: 20px;
+        padding-bottom: 20px;
+        height: 100%; 
+        width: 40%; 
+    }
+}
+
+@media screen and (max-width: 768px){
+    #contact-box {
+        width: 95%;
+        background-color:white;
+        overflow: auto;
+        margin: auto;
+        padding: 30px;
+        border-style: solid;
+        border-color: #dddddd;
+        border-width: 1px;
+    
+    }
+
+    img {
+        /* float: left; */
+        padding-right: 20px;
+        padding-bottom: 20px;
+        height: 100%; 
+        width: 55%; 
+    }
+
+    .container {
+        /* height: 220px;
+        width: 300px; */
+        width: 45%;
+        height: 220px;
+        /* margin: 25px 0px 25px 0px; */
+        float: left;
+        position: relative;
+    }
+
+    .caption {
+        background-color: lightseagreen;
+        color: white;
+        /* width: 300px; */
+        width: 100%;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        /* padding: 25px; */
+        margin: auto;
+        float: center;
+        font-size: 18pt;
+    }
+    
+    .caption_box {
+        padding: 20px;
+        /* width: 300px; */
+        width: 100%;
+        height: 65px;
+        text-align: center;
+        background-color: lightseagreen;
+        position: absolute;
+        bottom: 15px;
+    }
+
+    
+}
+
+@media screen and (max-width: 640px){
+
+    #head {
+        width: 100%;
+        height:100%;
+        overflow: auto;
+        margin: auto;
+        /* display: flex;
+        justify-content: space-between; */
+        display: block;
+    }
+    
+    #name {
+        float: left;
+        /* padding: 25px 225px 25px 225px; */
+        /* padding-left: 50%;
+        padding-right: 50%; */
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        background-color: lightseagreen;
+        color: white;
+        display: block;
+        
+    }
+
+    header {
+        width: 100%;
+        height: 136px;
+        margin-bottom: 30px;
+        background-color: white;
+        border-style: solid;
+        border-width: 0px 0px 2px 0px;
+        border-color: #cccccc;
+    }
+
+    #button-box {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        clear: both;
+        height: 50px;
+    }
+
+    a {
+        /* margin: auto; */
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: unset;
+        color: darkgrey;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    img {
+        /* float: left; */
+        padding-right: 0px;
+        padding-bottom: 20px;
+        height: 100%; 
+        width: 100%; 
+    }
+
+    .container {
+        /* height: 220px;
+        width: 300px; */
+        width: 100%;
+        height: 255px;
+        margin: 25px 0px 25px 0px;
+        float: left;
+        position: relative;
+    }
+
+    .caption {
+        background-color: lightseagreen;
+        color: white;
+        /* width: 300px; */
+        width: 100%;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        /* padding: 25px; */
+        margin: auto;
+        float: center;
+        font-size: 18pt;
+    }
+    
+    .caption_box {
+        padding: 20px;
+        /* width: 300px; */
+        width: 100%;
+        height: 65px;
+        text-align: center;
+        background-color: lightseagreen;
+        position: absolute;
+        bottom: 15px;
+    }
+    
+}
