@@ -138,9 +138,11 @@ img {
 }
 
 #six {
-    background-image: url("https://download.ams.birds.cornell.edu/api/v1/asset/89853731/");
+    /* background-image: url("https://download.ams.birds.cornell.edu/api/v1/asset/89853731/");
     background-size: contain;
-    background-position: top right;
+    background-position: top right; */
+    background-image: url("https://vignette.wikia.nocookie.net/disney/images/0/05/Kissin_Kate_Close_Up.jpg/revision/latest?cb=20120331052233");
+    background-size: cover;
     margin-right: 0px;
 }
 
