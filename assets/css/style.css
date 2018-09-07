@@ -113,9 +113,11 @@ img {
 }
 
 #two {
-    background-image: url("http://img.viralnova.com/000/072/615/desktop-1410170780.png");
+    /* background-image: url("http://img.viralnova.com/000/072/615/desktop-1410170780.png");
     background-size: cover;
-    background-position: center top;
+    background-position: center top; */
+    background-image: url("http://cantrellseafood.com/wp-content/uploads/2016/04/Cantrell-Seafood-Littleneck-Clams.jpg");
+    background-size: cover;
     margin-right: 0px;
 }
 
